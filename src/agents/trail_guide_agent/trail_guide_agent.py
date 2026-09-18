@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from azure.identity import DefaultAzureCredential
 from azure.ai.projects import AIProjectClient
 from azure.ai.projects.models import PromptAgentDefinition
-
+print("COWABUNGA")
 # Load environment variables from .env file
 load_dotenv()
 
